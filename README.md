@@ -79,7 +79,6 @@ Here's the complete list of scripts in this collection:
 
 ### Step 1: Get the code
 
-```bash
 # Clone the repository
 git clone https://github.com/YOUR_USERNAME/scripts.git
 
@@ -125,6 +124,7 @@ crontab -e
 
 # Or use Task Scheduler (Windows)
 # Or just let the --watch mode run forever
+
 That's it. You're done.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
