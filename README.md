@@ -11,7 +11,15 @@ Production-grade Python utilities for automation, security, and developer produc
 ## Installation
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/scripts.git
+git clone https://github.com/Sammie2015lulz/scripts.git
 cd scripts
 pip install -r requirements.txt
 ```
+
+## Scripts
+File Organizer (organizer.py)
+Automatically organizes files by type or custom rules.
+
+bash
+python organizer.py --dry-run    # Preview changes
+python organizer.py --watch       # Monitor continuously
