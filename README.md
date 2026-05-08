@@ -39,11 +39,11 @@ This repository contains a set of standalone Python scripts designed to solve co
 
 ## Installation
 
-
+'''bash
 git clone https://github.com/YOUR_USERNAME/scripts.git
 cd scripts
 pip install -r requirements.txt
-
+'''bash
 
 Each script can be executed independently. No global installation required.
 
