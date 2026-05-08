@@ -43,6 +43,8 @@ This repository contains a set of standalone Python scripts designed to solve co
 git clone https://github.com/YOUR_USERNAME/scripts.git
 cd scripts
 pip install -r requirements.txt
+```
+
 Each script can be executed independently. No global installation required.
 
 Scripts
