@@ -48,6 +48,7 @@ pip install -r requirements.txt
 Each script can be executed independently. No global installation required.
 
 Scripts
+
 File Organizer
 Purpose: Automatically organizes files in a specified directory (e.g., Downloads folder) based on file type, naming patterns, or custom rules.
 
@@ -65,21 +66,29 @@ Ignores in-progress downloads
 
 Usage:
 
-bash
 # Preview what would be moved
+```bash
 python organizer.py --dry-run
+```
 
 # Run one-time organization
+```bash
 python organizer.py
+```
 
 # Monitor directory continuously
+```bash
 python organizer.py --watch
+```
 
 # Use custom configuration
+```bash
 python organizer.py --config settings.json
+```
+
 Configuration Example:
 
-json
+```json
 {
   "downloads_path": "~/Downloads",
   "rules": [
@@ -88,6 +97,8 @@ json
     {"patterns": ["invoice.*\\.pdf"], "destination": "Invoices", "use_regex": true}
   ]
 }
+```
+
 Secret Manager
 Purpose: Securely stores API keys, passwords, and other credentials using AES-256 encryption.
 
@@ -105,7 +116,6 @@ File permissions set to 600
 
 Usage:
 
-bash
 # Initialize vault (first time only)
 python secrets.py init
 
