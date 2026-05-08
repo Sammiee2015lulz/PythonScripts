@@ -39,11 +39,11 @@ This repository contains a set of standalone Python scripts designed to solve co
 
 ## Installation
 
-'''bash
+bash
 git clone https://github.com/YOUR_USERNAME/scripts.git
 cd scripts
 pip install -r requirements.txt
-'''bash
+bash
 
 Each script can be executed independently. No global installation required.
 
@@ -104,7 +104,6 @@ File permissions set to 600
 
 Usage:
 
-bash
 # Initialize vault (first time only)
 python secrets.py init
 
@@ -379,25 +378,7 @@ Coverage maintained or improved
 License
 MIT License. See LICENSE for details.
 
-Author
-Your Name
-
-GitHub: @YOUR_USERNAME
-
-Email: your.email@example.com
-
 Version History
 Version	Date	Changes
 2.0.0	2026-05-08	Production release with full test coverage
 1.0.0	2026-04-01	Initial release
-Citation
-If you use these scripts in your work, please cite:
-
-bibtex
-@software{scripts2026,
-  author = {Your Name},
-  title = {Scripts: Production Python Utilities},
-  year = {2026},
-  url = {https://github.com/YOUR_USERNAME/scripts}
-}
-Built with Python. Licensed under MIT.
